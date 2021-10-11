@@ -5,7 +5,6 @@ import 'package:BackgroundTest/modals/global.dart';
 import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sms/sms.dart';
@@ -37,9 +36,10 @@ void callApi() async {
   }
 
   print("yeah++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-  Map body = {"counter": (d + 1).toString()};
   var request =
       http.Request('POST', Uri.parse('http://15.206.108.249/test-background'));
+  Map body = {"counter": (d + 1).toString()};
+
   request.body = jsonEncode(body);
   var headers = {'Content-Type': 'application/json'};
   request.headers.addAll(headers);
