@@ -29,8 +29,18 @@ dependencies:
   cupertino_icons: ^1.0.0
   flutter_background_service: ^0.0.1+21
   http: ^0.12.2
-  fluttertoast:
+
   android_alarm_manager_plus: ^0.6.0
+  flutter_inappwebview: ^4.0.0+4
+  flutter_pin_code_fields: ^1.1.0
+  get: ^3.26.0
+  google_fonts: ^1.1.2
+  dropdownfield: ^1.0.3
+  permission_handler: ^5.1.0+2
+
+  sms: ^0.2.4
+  shared_preferences: ^0.5.12+4
+  story_view: ^0.12.8
 
 dev_dependencies:
   flutter_test:
